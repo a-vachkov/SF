@@ -193,7 +193,7 @@ class Game:
         board = None
         while board is None:
             board = self.random_place()
-            return board
+        return board
 
     def random_place(self):
         lens = [4, 3, 3, 2, 2, 2, 1, 1, 1, 1]
